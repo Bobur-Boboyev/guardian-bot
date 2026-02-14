@@ -18,4 +18,4 @@ def start_command(update: Update, context: CallbackContext):
     update.message.reply_html(
         text=constants.start_msg.format(name=update.effective_user.full_name),
         reply_markup=keyboard)
-    
+        
